@@ -38,10 +38,10 @@ This CV (сurriculum vitae)
 
 ## __Education:__
 1) __University:__ 
-    + Belarussian-Russian university / Faculty of Engineering and Economics
++ Belarussian-Russian university / Faculty of Engineering and Economics
 2) __Courses:__
-    + HTML, CSS, JavaScript on  [Code Basics](https://ru.code-basics.com/)
-    + RS Schools Course «JavaScript/Front-end» (in progress)
++ HTML, CSS, JavaScript on  [Code Basics](https://ru.code-basics.com/)
++ RS Schools Course «JavaScript/Front-end» (in progress)
 
 ## __English:__
 A2 (Elementary) according to the guidelines set by the Common European Framework of Reference (CEFR).
