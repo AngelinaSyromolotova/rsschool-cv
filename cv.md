@@ -1,5 +1,4 @@
 # __Angelina Syromolotova__
-
 ![](photo.jpg)
 
 ## __Contacts:__
