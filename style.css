@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.header {
+    font-family: 'Bebas Neue', cursive;
+    width: 100%;
+    position: fixed;
+    top:0;  
+}
+.main-container {
+    flex-wrap: wrap;
+    margin-top: 52px;
+    font-size: 100%;
+  }
+.nav-list {
+    justify-content: flex-end;
+    align-items: center;
+  }
+.nav-link {
+    padding-right: 50px;
+    line-height: normal;
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+}
+section {
+    float: left;
+    height: 300px;
+    width: calc(100%/3);
+}
+.logotype {
+    width: 10%;
+    height: 30px;
+}
+.text {
+    font-size: 120%;
+    font-family: 'Fjalla One', sans-serif;
+}
+.icon {
+    margin-right: 10px;
+}
+body, .main-container, .nav-list {
+    display: flex;
+}
+h2,h1 {
+    background-color: #7a93e7;
+    color:aliceblue; 
+}
+#profile, h2, h1, .nav-link, .marker {
+    text-align: center;
+}
+.information-list, .nav-list, .marker {
+    list-style: none;
+}
+.info-link, .nav-link {
+    text-decoration: none;
+}
+.footer, .header {
+    background-color: #bb74e3;    
+}
+#indent, .nav-link {
+    padding-left: 50px;
+}
+@media (max-width: 768px) {
+    .section {
+      width: 100%;
+    }
+  }
+
+
+  

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
+    <title>CV</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <ul class="nav-list">
+                  <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                  <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+                  <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                  <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+                  <li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li>
+                  <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                  <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                  <li class="nav-item"><a href="#english" class="nav-link">Language</a></li>
+                </ul>
+              </nav>
+        </div>
+    </header>
+    <main class ="main-container">
+        <div class="container">
+            
+            <section class="section" id="profile">
+                <h1 class="section-title">Angelina Syromolotova</h1>
+                <img src="photo.jpg" alt="my photo">
+            </section>
+
+            <section class="section" id="contacts">
+                <h2>Contacts:</h2>
+                    <span class="text">
+                        <ul class="information-list"> 
+                            <li><img src="images/location.png" alt="location" class="icon">Location: Mogilev, Belarus</li>
+                            <li><img src="images/phone-call.png" alt="phone" class="icon">Phone: +375(44) 582-19-79</li>
+                            <li><img src="images/email.png" alt="email" class="icon">Email: angelina_syromolotova@mail.ru</li>
+                            <li><img src="images/telegram.png" alt="telegram" class="icon">Telegram: @Lina_S_A_D</li>
+                            <li><img src="images/discord.png" alt="discord nickname" class="icon">Discord nickname: <a href="https://discord.com/channels/@AngelinaSyromolotova" class="info-link">Angelina</a></li>
+                        </ul>
+                    </span>
+            </section>
+
+            <section class="section" id="summary">
+                <h2>About Myself:</h2>
+                    <span class="text"> 
+                        After graduating from the university and entering the magistracy, 
+                        I worked for a year as a software maintenance specialist in a medical institution in my city.
+                        My strong point is the desire for development and self-improvement.
+                        At the moment, my goal is to master the skills of programming in the JavaScript language for the profession - Frontend Developer
+                    </span>
+            </section>
+
+            <section class="section" id="skills">
+                <h2>Skills:</h2>
+                    <span class="text">
+                        <ul class="information-list">
+                            <li><img src="images/check-mark.png" alt="marker" class="icon">Markdown</li>
+                            <li><img src="images/check-mark.png" alt="marker" class="icon">Git, GitHub</li>
+                            <li><img src="images/check-mark.png" alt="marker" class="icon">HTML, CSS</li>
+                            <li><img src="images/check-mark.png" alt="marker" class="icon">JavaScript (Basic)</li>
+                        </ul>
+                    </span>
+            </section>
+
+            <section class="section" id="code">
+                <h2>Code Example:</h2>
+                    <span class="text">KATA from CODEWARS:
+                        Coding in function pickIt, function accept 1 parameter : arr, it's a number array, 
+                        we need traverse arr by using for loop, if element is odd number, push it to array odd, 
+                        if it's a even number, push it to array even.
+                    </span>
+                        <pre class="code">
+                            <code>
+function pickIt(arr){
+var odd=[],even=[];
+    for (var i = 0; i < arr.length; i++){
+        arr[i] % 2 ? odd.push(arr[i]) : even.push(arr[i]);
+    }
+    return [odd,even];
+}   
+                            </code>    
+                        </pre>
+            </section>
+
+            <section class="section" id="courses">
+                <h2>Courses:</h2>
+                    <span class="text">
+                        <ul class="information-list">
+                            <li><img src="images/check-mark.png" alt="marker" class="icon">HTML, CSS, JavaScript on <a href="https://ru.code-basics.com/" class="info-link"> Code Basics</a></li>
+                            <li><img src="images/check-mark.png" alt="marker" class="icon">RS Schools Course «JavaScript/Front-end» (in progress)</li>
+                        </ul>
+                    </span>
+            </section>
+
+            <section class="section" id="projects">
+                <h2>Work Experience:</h2>
+                    <span class="text" id="indent">CV <a href="https://AngelinaSyromolotova.github.io/rsschool-cv/" class="info-link">(curriculum vitae)</a></span>
+            </section>
+
+            <section class="section" id="education">
+                <h2>Education:</h2>
+                    <span class="text">University:<a href="http://bru.by/" class="info-link">Belarussian-Russian university / Faculty of Engineering and Economics</a></span>
+            </section>
+
+            <section class="section" id="english">
+                <h2>Languages:</h2>
+                    <span class="text">
+                        <ul class="information-list">
+                            <li><img src="images/check-mark.png" alt="marker" class="icon">English: A2 (Elementary) according to the guidelines set by the Common European Framework of Reference (CEFR).</li>
+                            <li><img src="images/check-mark.png" alt="marker" class="icon">Russian: native.</li>
+                        </ul>
+                    </span>
+            </section>
+
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <p class="marker">
+            <a href="https://rs.school/js/"  ><img src="images/rs_school_js.svg" alt="rsschool"  class="logotype" ></a>
+            <a href="https://github.com/AngelinaSyromolotova" ><img src="images/GitHub_(6).png"  alt="github"  class="logotype" ></a>
+            </p>
+        </div>
+    </footer>
+</body>
+</html>
